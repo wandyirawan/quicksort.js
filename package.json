@@ -1,0 +1,19 @@
+{
+  "name": "quicksort.js",
+  "version": "0.1.0",
+  "description": "implementation quicksort algorithm in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wandyirawan/quicksort.js.git"
+  },
+  "author": "wandy irawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wandyirawan/quicksort.js/issues"
+  },
+  "homepage": "https://github.com/wandyirawan/quicksort.js#readme"
+}
