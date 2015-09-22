@@ -1,4 +1,4 @@
-#quicksoft.js
+#quicksort.js
 
 ###About
 This is utilies for implementation quicksort algorithm, some quora said this is the best algoritm for sorting.
