@@ -131,4 +131,4 @@ var quicksort ={}
 quicksort['asc']=quickSort
 quicksort['desc']=quickSortDesc
 
-exports.quicksort
+module.exports = quicksort

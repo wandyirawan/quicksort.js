@@ -12,4 +12,17 @@ Then, base that  example i'm modification to make this. So this utilities is Fre
 * Can sort array of object based property of object
 
 ###How to use:
--- will soon
+quicksort.asc(array, 'propertyObj', startIdx, endIdx)
+quicksort.desc(array, 'propertyObj', startIdx, endIdx)
+
+###Example: 
+quicksort = require('quicksort.js');
+
+quicksort.asc(array) // sort all array ascending
+quicksort.desc(array) // sort all array descending
+
+quicksort.asc(arrayOfObj, 'propertyObj') //sort array of object by property ascending
+quicksort.desc(arrayOfObj, 'propertyObj') //sort array of object by property descending
+
+quicksort.asc(array, undefined, 0,5) // sort all array ascending with range sort
+quicksort.desc(array, undefined, 4,9) // sort all array descending with range sort
