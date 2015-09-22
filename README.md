@@ -16,6 +16,7 @@ quicksort.asc(array, 'propertyObj', startIdx, endIdx)
 quicksort.desc(array, 'propertyObj', startIdx, endIdx)
 
 ###Example: 
+```
 quicksort = require('quicksort.js');
 
 quicksort.asc(array) // sort all array ascending
@@ -26,3 +27,4 @@ quicksort.desc(arrayOfObj, 'propertyObj') //sort array of object by property des
 
 quicksort.asc(array, undefined, 0,5) // sort all array ascending with range sort
 quicksort.desc(array, undefined, 4,9) // sort all array descending with range sort
+```
